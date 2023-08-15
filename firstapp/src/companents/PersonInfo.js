@@ -1,13 +1,13 @@
 import React from "react";
 
-function PersonInfo(props) {
+function PersonInfo({data : {name,age}}) {
   return (
     <div>
       <center>
         <h1>Infos</h1>
         <p>
-          name: {props.name} <br />
-          age: {props.age}
+          name: {name} <br />
+          age: {age}
         </p>
       </center>
     </div>
