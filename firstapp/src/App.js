@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./companents/Counter";
 import Header from "./companents/Header";
 import PersonInfo from "./companents/PersonInfo";
 const persons={
@@ -23,6 +24,7 @@ function App() {
   return (
     <div>
       <Header/>
+      <Counter/>
       <PersonInfo data={persons.person1} />
       <PersonInfo data={persons.person2} />
       <PersonInfo data={persons.person3} />
